@@ -90,4 +90,14 @@ background: rgba(255, 255, 255, 0.05);
 .container .calculator .clear{
     grid-column: span 2;
     width: 150px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.container .calculator .plus{
+    grid-row: span 2;
+    height: 150px;
+}
+
+.equal{
+    background: rgba(255, 255, 255, 0.05);
 }

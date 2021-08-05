@@ -28,9 +28,18 @@
             <span class="num" onclick="document.calc.txt.value +='0'">0</span>
             <span class="num" onclick="document.calc.txt.value +='00'">00</span>
             <span class="num" onclick="document.calc.txt.value +='.'">.</span>
-            <span class="num" onclick="document.calc.txt.value =eval(calc.txt.value)">=</span>
+            <span class="num equal" onclick="document.calc.txt.value =eval(calc.txt.value)">=</span>
 
         </form>
     </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".container"), {
+            max: 25,
+            speed: 400,
+            glare:true,
+            "max-glare":1
+        });
+    </script>
 </body>
 </html>
